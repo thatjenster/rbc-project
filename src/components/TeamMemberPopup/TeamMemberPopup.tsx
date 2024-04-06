@@ -15,6 +15,10 @@ interface Props {
 }
 
 function TeamMemberPopup({ member, onClose, onPrevious, onNext }: Props) {
+
+  const createMarkup = (text: string) => {
+    return { __html: text };
+  };
   return (
     <div className="team-member-popup">
       <div className="popup-content">
@@ -44,7 +48,7 @@ function TeamMemberPopup({ member, onClose, onPrevious, onNext }: Props) {
               </div>
             )}
           </div>
-          <p>{member.bio}</p>
+          <div className="bio" dangerouslySetInnerHTML={createMarkup(member.bio)} />
           <div className="navigation-buttons">
             <button onClick={onPrevious}>
               <img src={previousIcon} alt="Previous" />
