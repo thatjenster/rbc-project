@@ -30,6 +30,11 @@ p {
   border: 1px solid #78a6b8;
   cursor: pointer;
   margin-top: 40px;
+}
+
+.btn a {
+  color: #fff;
+  text-decoration: none;
   font-family: 'RBCDisplay', sans-serif; 
   font-weight: normal;
 }

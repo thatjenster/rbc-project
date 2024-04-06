@@ -1,19 +1,23 @@
+import { BioData } from '../../types/types'
 import './SubFooter.css'
 
-function Footer() {
+
+function SubFooter({ bioData }: { bioData: BioData }) {
+  const { section_cta } = bioData
+
+  const ctaItem = section_cta[0]
+
   return (
     <div className='bg-Full'>
       <div className='container'>
-        <h2>Let's work together to make the most of your wealth</h2>
-        <p>
-            Whatever your financial requirements, challenges, 
-            opportunities, and goals, our team has the experience and 
-            expertise to help you maximize them.
-        </p>
-        <button className='btn'>Work with us</button>
+        <h2>{ctaItem.title}</h2>
+        <p>{ctaItem.text}</p>
+        <button className='btn'>
+          <a href={ctaItem.link.url}>{ctaItem.link.title}</a>
+        </button>
       </div>
     </div>
   )
 }
-  
-  export default Footer
+
+export default SubFooter

@@ -8,9 +8,9 @@ import bioData from './data/bioData.json'
 function App() {
   return (
     <main className="App">
-      <SkillSetSection />
+      <SkillSetSection bioData={bioData}/>
       <TeamSection bioData={bioData}/>
-      <SubFooter />
+      <SubFooter bioData={bioData}/>
       <MainFooter/>
     </main>
   )
