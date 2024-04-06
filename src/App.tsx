@@ -1,11 +1,12 @@
 import './App.css'
 import SubFooter from './components/SubFooter/SubFooter'
 import MainFooter from './components/MainFooter/MainFooter'
+import SkillSetSection from './components/SkillSetsSection/SkillSetSection'
 
 function App() {
   return (
     <main className="App">
-      <h1>Hello World</h1>
+      <SkillSetSection />
       <SubFooter />
       <MainFooter/>
     </main>

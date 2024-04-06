@@ -1,52 +1,54 @@
 .bg-Full {
-    background-image: url('./../../../public/assets/images/CTA_BKG.png');
-    background-size: cover; 
-    background-position: center; 
-    color: #fff; 
-    padding: 60px 0 120px 0; 
-    text-align: center; 
+  background-image: url('./../../../public/assets/images/CTA_BKG.png');
+  background-size: cover; 
+  background-position: center; 
+  color: #fff; 
+  padding: 60px 0 120px 0; 
+  text-align: center; 
 }
 
 .container {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 h2 {
-    font-size: 32px;
-    margin-bottom: 40px;
+  font-size: 32px;
+  margin-bottom: 40px;
 }
 
 p {
-    font-size: 18px;
-    max-width: 1100px;
-    margin: auto;
+  font-size: 18px;
+  max-width: 1100px;
+  margin: auto;
 }
 
 .btn {
-    background: none;
-    color: #fff;
-    padding: 14px 48px;
-    font-size: 16px;
-    border: 1px solid #fff;
-    cursor: pointer;
-    margin-top: 40px;
+  background: none;
+  color: #fff;
+  padding: 14px 48px;
+  font-size: 16px;
+  border: 1px solid #78a6b8;
+  cursor: pointer;
+  margin-top: 40px;
+  font-family: 'RBCDisplay', sans-serif; 
+  font-weight: normal;
 }
 
 .btn:hover {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 
 
 @media screen and (max-width: 768px) {
-    .bg-Full {
-        padding: 60px 25px; 
-    }
+  .bg-Full {
+    padding: 60px 25px; 
+  }
 
-    h2 {
-        font-size: 28px; 
-    }
+  h2 {
+    font-size: 28px; 
+  }
 
-    p {
-        font-size: 16px;
-    }
+  p {
+    font-size: 16px;
+  }
 }
