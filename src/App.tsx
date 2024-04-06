@@ -1,13 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import SubFooter from './components/SubFooter/SubFooter'
+import MainFooter from './components/MainFooter/MainFooter'
 
 function App() {
   return (
-    <div className="App">
+    <main className="App">
       <h1>Hello World</h1>
-    </div>
-  );
+      <SubFooter />
+      <MainFooter/>
+    </main>
+  )
 }
 
-export default App;
+export default App

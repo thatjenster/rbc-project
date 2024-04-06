@@ -1,3 +1,67 @@
+@font-face {
+  font-family: 'RBCDisplay';
+  src: url('./assets/fonts/RBCDisplay-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'RBCDisplay';
+  src: url('./assets/fonts/RBCDisplay-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RBCDisplay';
+  src: url('./assets/fonts/RBCDisplay-ExtraBold.ttf') format('truetype');
+  font-weight: 800; /* Extra bold */
+}
+
+@font-face {
+  font-family: 'RBCDisplay';
+  src: url('./assets/fonts/RBCDisplay-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800; /* Extra bold */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RBCDisplay';
+  src: url('./assets/fonts/RBCDisplay-Italic.ttf') format('truetype');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RBCDisplay';
+  src: url('./assets/fonts/RBCDisplay-Light.ttf') format('truetype');
+  font-weight: 300; /* Light */
+}
+
+@font-face {
+  font-family: 'RBCDisplay';
+  src: url('./assets/fonts/RBCDisplay-LightItalic.ttf') format('truetype');
+  font-weight: 300; /* Light */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RBCDisplay';
+  src: url('./assets/fonts/RBCDisplay-Medium.ttf') format('truetype');
+  font-weight: 500; /* Medium */
+}
+
+@font-face {
+  font-family: 'RBCDisplay';
+  src: url('./assets/fonts/RBCDisplay-MediumItalic.ttf') format('truetype');
+  font-weight: 500; /* Medium */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RBCDisplay';
+  src: url('./assets/fonts/RBCDisplay-Regular.ttf') format('truetype');
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +69,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'RBCDisplay', sans-serif; 
+  font-weight: normal;
 }
 
 code {
