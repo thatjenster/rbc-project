@@ -18,13 +18,13 @@
 }
 
 .column1::after {
-  content: ''; /* Create pseudo-element */
+  content: ''; 
   position: absolute;
-  bottom: 0; /* Align at the bottom */
-  left: 0; /* Start from the left */
-  width: 55%; /* Set width to half of the column */
-  height: 2px; /* Underline height */
-  background-color: #78a6b8; /* Underline color */
+  bottom: 0;
+  left: 0; 
+  width: 55%;
+  height: 2px; 
+  background-color: #78a6b8;
   margin-top: 40px;
 }
 
