@@ -1,5 +1,5 @@
 import './MainFooter.css'
-import rightIcon from './../../assets/icons/right-arrow.svg'
+import rightIcon from '@/assets/icons/right-arrow.svg'
 
 function MainFooter() {
   return (

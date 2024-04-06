@@ -1,0 +1,33 @@
+.team-member-card {
+  padding: 40px;
+}
+
+.team-member-card:hover {
+  background-color: #f0f1f1;
+  transform: translateY(-2px);
+}
+
+.team-member-card-content {
+  text-align: left;
+}
+
+.team-member-card-content h2 {
+  margin-top: 0;
+  padding-top: 20px;
+  color: #103164;
+}
+
+.team-member-card-content p {
+  color: #646367;
+}
+
+.team-member-card-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .team-member-card {
+    padding: 10px;
+  }
+}

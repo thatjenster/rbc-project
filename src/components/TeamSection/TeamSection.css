@@ -1,0 +1,18 @@
+.team-section {
+  max-width: 1200px;
+  margin: 64px auto 120px auto;
+  padding: 0 20px;
+}
+
+.team-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  grid-gap: 20px; 
+}
+
+@media screen and (max-width: 768px) {
+  .team-cards {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
