@@ -12,7 +12,7 @@
 }
 
 .column1 {
-  flex: 0 0 30%;
+  flex: 0 0 35%;
   position: relative;
   padding-bottom: 40px; 
 }
@@ -34,7 +34,7 @@
 }
 
 .column2 {
-  flex: 0 0 70%;
+  flex: 0 0 65%;
 }
 
 .column2 p {

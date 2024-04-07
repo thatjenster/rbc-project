@@ -11,10 +11,21 @@
   text-align: left;
 }
 
-.team-member-card-content h2 {
-  margin-top: 0;
-  padding-top: 20px;
+.member-name {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.member-name h2 {
+  margin: 0;
   color: #103164;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.member-name .arrow-icon {
+  margin-left: 10px; /* Adjust margin as needed */
 }
 
 .team-member-card-content p {
@@ -28,6 +39,10 @@
 
 @media screen and (max-width: 768px) {
   .team-member-card {
-    padding: 10px;
+    padding: 20px; /* Adjust padding for mobile */
+  }
+
+  .member-name h2 {
+    font-size: 24px; /* Adjust font size for mobile */
   }
 }

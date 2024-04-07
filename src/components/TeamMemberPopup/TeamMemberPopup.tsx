@@ -26,13 +26,13 @@ function TeamMemberPopup({ member, onClose, onPrevious, onNext }: Props) {
           <img src={member.headshot} alt={member.name} />
         </div>
         <div className="right-column">
-          <h2>{member.name}</h2>
+          <h2>{member.name}{member.designation !== '' ? `, ${member.designation}` : ''}</h2>
           <h4>{member.title}</h4>
           <div className="contact-info">
             {member.number && (
               <div className="contact-item">
                 <img src={phoneIcon} alt="Phone" />
-                <p>{member.number}</p>
+                <p className="number">{member.number}</p>
               </div>
             )}
             {member.email && (
@@ -51,12 +51,12 @@ function TeamMemberPopup({ member, onClose, onPrevious, onNext }: Props) {
           <div className="bio" dangerouslySetInnerHTML={createMarkup(member.bio)} />
           <div className="navigation-buttons">
             <button onClick={onPrevious}>
-              <img src={previousIcon} alt="Previous" />
+              <img src={previousIcon} alt="Previous" className="prev-btn"/>
               Previous
             </button>
             <button onClick={onNext}>
               Next
-              <img src={nextIcon} alt="Previous" />
+              <img src={nextIcon} alt="Previous" className="next-btn"/>
             </button>
           </div>
         </div>
