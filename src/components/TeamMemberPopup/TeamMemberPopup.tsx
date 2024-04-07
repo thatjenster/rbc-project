@@ -17,8 +17,9 @@ interface Props {
 function TeamMemberPopup({ member, onClose, onPrevious, onNext }: Props) {
 
   const createMarkup = (text: string) => {
-    return { __html: text };
-  };
+    return { __html: text }
+  }
+
   return (
     <div className="team-member-popup">
       <div className="popup-content">
@@ -65,7 +66,7 @@ function TeamMemberPopup({ member, onClose, onPrevious, onNext }: Props) {
         </button>
       </div>
     </div>
-  );
+  )
 }
 
 export default TeamMemberPopup

@@ -123,7 +123,6 @@
   width: 30px;
 }
 
-/* Media Query for Mobile */
 @media (max-width: 767px) {
   .popup-content {
     width: 100%;

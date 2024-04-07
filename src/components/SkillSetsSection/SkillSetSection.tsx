@@ -18,7 +18,7 @@ function SkillSetSection({ bioData }: { bioData: BioData }) {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 export default SkillSetSection

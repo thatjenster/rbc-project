@@ -3,8 +3,8 @@ import nextIcon from '@/assets/icons/next.svg'
 import './TeamMemberCard.css'
 
 interface Props {
-  member: TeamMember;
-  onClick: () => void;
+  member: TeamMember
+  onClick: () => void
 }
 
 function TeamMemberCard({ member, onClick }: Props) {

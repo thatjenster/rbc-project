@@ -9,8 +9,8 @@ interface Props {
 }
 
 function TeamSection({ bioData }: Props) {
-  const [selectedMember, setSelectedMember] = useState<TeamMember | null>(null);
-  const [selectedIndex, setSelectedIndex] = useState<number>(0);
+  const [selectedMember, setSelectedMember] = useState<TeamMember | null>(null)
+  const [selectedIndex, setSelectedIndex] = useState<number>(0)
 
   const handleCardClick = (member: TeamMember, index: number) => {
     setSelectedMember(member)
@@ -22,12 +22,12 @@ function TeamSection({ bioData }: Props) {
   }
 
   const handlePrevious = () => {
-    const newIndex = (selectedIndex - 1 + bioData.team.length) % bioData.team.length;
+    const newIndex = (selectedIndex - 1 + bioData.team.length) % bioData.team.length
     setSelectedMember(bioData.team[newIndex])
   }
 
   const handleNext = () => {
-    const newIndex = (selectedIndex + 1) % bioData.team.length;
+    const newIndex = (selectedIndex + 1) % bioData.team.length
     setSelectedMember(bioData.team[newIndex])
     setSelectedIndex(newIndex)
   }

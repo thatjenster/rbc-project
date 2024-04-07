@@ -25,7 +25,7 @@
 }
 
 .member-name .arrow-icon {
-  margin-left: 10px; /* Adjust margin as needed */
+  margin-left: 10px;
 }
 
 .team-member-card-content p {
@@ -39,10 +39,10 @@
 
 @media screen and (max-width: 768px) {
   .team-member-card {
-    padding: 20px; /* Adjust padding for mobile */
+    padding: 20px;
   }
 
   .member-name h2 {
-    font-size: 24px; /* Adjust font size for mobile */
+    font-size: 24px;
   }
 }

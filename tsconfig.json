@@ -21,13 +21,11 @@
     "jsx": "react-jsx",
     "baseUrl": "src",
     "paths": {
-      "@components/": ["components/*"],
-      "@types/": ["types/*"],
-      "@assets/": ["assets/*"]
+      "@components/*": ["src/components/*"],
+      "@types/*": ["src/types/*"],
+      "@assets/*": ["src/assets/*"]
     }
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src/**/*"]
 }
 
