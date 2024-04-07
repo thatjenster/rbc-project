@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/rbc-project/static/css/main.83a46ccf.css",
+    "main.js": "/rbc-project/static/js/main.f36576d7.js",
+    "static/media/CTA_BKG.png": "/rbc-project/static/media/CTA_BKG.f36b148968e76826e4f8.png",
+    "static/media/RBCDisplay-LightItalic.ttf": "/rbc-project/static/media/RBCDisplay-LightItalic.9c32a67f5979f571621b.ttf",
+    "static/media/RBCDisplay-Light.ttf": "/rbc-project/static/media/RBCDisplay-Light.e2546deb578895bbd091.ttf",
+    "static/media/RBCDisplay-Regular.ttf": "/rbc-project/static/media/RBCDisplay-Regular.aec124ab92995b44ce7f.ttf",
+    "static/media/RBCDisplay-Medium.ttf": "/rbc-project/static/media/RBCDisplay-Medium.7fd3bc07070c7d772606.ttf",
+    "static/media/RBCDisplay-MediumItalic.ttf": "/rbc-project/static/media/RBCDisplay-MediumItalic.6ab9d42a67fc6314b541.ttf",
+    "static/media/RBCDisplay-Bold.ttf": "/rbc-project/static/media/RBCDisplay-Bold.14db031d191534871e6b.ttf",
+    "static/media/RBCDisplay-Italic.ttf": "/rbc-project/static/media/RBCDisplay-Italic.6d5aaf083314a42763f9.ttf",
+    "static/media/RBCDisplay-ExtraBoldItalic.ttf": "/rbc-project/static/media/RBCDisplay-ExtraBoldItalic.3903abfc6d41bf590917.ttf",
+    "static/media/RBCDisplay-BoldItalic.ttf": "/rbc-project/static/media/RBCDisplay-BoldItalic.1f91a58d96a3a96ce3f8.ttf",
+    "static/media/RBCDisplay-ExtraBold.ttf": "/rbc-project/static/media/RBCDisplay-ExtraBold.dca682d8e30aa20d219c.ttf",
+    "static/media/email.svg": "/rbc-project/static/media/email.8e06d613349058d2df44a1bb6eabdc53.svg",
+    "static/media/linkedin.svg": "/rbc-project/static/media/linkedin.28273b477c6c55cf12ae2ad7f116501c.svg",
+    "index.html": "/rbc-project/index.html",
+    "static/media/phone.svg": "/rbc-project/static/media/phone.b5e465aed5a5a3cf713f26d16616a11c.svg",
+    "static/media/close.svg": "/rbc-project/static/media/close.e0aaea566ef1ea2762729e63a19e709c.svg",
+    "static/media/previous.svg": "/rbc-project/static/media/previous.c7cb792ef691dacbfb09fbe8b24c8160.svg",
+    "static/media/next.svg": "/rbc-project/static/media/next.29ee9c576e27fc570fad4ef8ff319e69.svg",
+    "static/media/right-arrow.svg": "/rbc-project/static/media/right-arrow.bfab3c0c57a632f66c009d98d3545561.svg",
+    "main.83a46ccf.css.map": "/rbc-project/static/css/main.83a46ccf.css.map",
+    "main.f36576d7.js.map": "/rbc-project/static/js/main.f36576d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83a46ccf.css",
+    "static/js/main.f36576d7.js"
+  ]
+}
