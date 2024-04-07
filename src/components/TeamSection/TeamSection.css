@@ -11,6 +11,11 @@
 }
 
 @media screen and (max-width: 768px) {
+  .team-section {
+    max-width: 1200px;
+    margin: 0 auto 64px auto;
+  }
+
   .team-cards {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }

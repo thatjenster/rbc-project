@@ -14,6 +14,7 @@
 h2 {
   font-size: 32px;
   margin-bottom: 40px;
+  font-weight: 400;
 }
 
 p {
@@ -38,11 +39,6 @@ p {
   font-family: 'RBCDisplay', sans-serif; 
   font-weight: normal;
 }
-
-.btn:hover {
-  background-color: #ddd;
-}
-
 
 @media screen and (max-width: 768px) {
   .bg-Full {
