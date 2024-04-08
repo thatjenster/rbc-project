@@ -1,5 +1,4 @@
 {
-  "homepage": "https://thatjenster.github.io/rbc-project",
   "name": "rbc",
   "version": "0.1.0",
   "license": "MIT",
@@ -21,7 +20,7 @@
   "scripts": {
     "start": "yarn start",
     "build": "yarn build",
-    "test": "yar test",
+    "test": "yarn test", // Fixed typo here
     "eject": "yarn eject",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
