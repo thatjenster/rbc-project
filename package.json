@@ -18,10 +18,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test",
-    "eject": "craco eject",
+    "start": "yarn start",
+    "build": "yarn build",
+    "test": "yar test",
+    "eject": "yarn eject",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
   },

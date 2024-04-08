@@ -7,27 +7,27 @@ function MainFooter() {
       <div className="footer-columns">
         <div className="footer-column">
           <h3>About RBC</h3>
-          <a href="#" className="footer-link">
+          <a href="/" className="footer-link">
             <img className='arrow-svg' src={rightIcon} alt="Arrow Icon"/>
             Our Company
           </a>
-          <a href="#" className="footer-link">
+          <a href="/" className="footer-link">
             <img className='arrow-svg' src={rightIcon} alt="Arrow Icon"/>
             Corporate Governance
           </a>
-          <a href="#" className="footer-link">
+          <a href="/" className="footer-link">
             <img className='arrow-svg' src={rightIcon} alt="Arrow Icon"/>
             Investor Relations
           </a>
-          <a href="#" className="footer-link">
+          <a href="/" className="footer-link">
             <img className='arrow-svg' src={rightIcon} alt="Arrow Icon"/>
             History
           </a>
-              <a href="#" className="footer-link">
+              <a href="/" className="footer-link">
                 <img className='arrow-svg' src={rightIcon} alt="Arrow Icon"/>
                 Contact Us
               </a>
-              <a href="#" className="footer-link">
+              <a href="/" className="footer-link">
                 <img className='arrow-svg' src={rightIcon} alt="Arrow Icon"/>
                 Regulatory Information
               </a>
