@@ -20,7 +20,7 @@
   "scripts": {
     "start": "yarn start",
     "build": "yarn build",
-    "test": "yarn test", // Fixed typo here
+    "test": "yarn test",
     "eject": "yarn eject",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
