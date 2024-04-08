@@ -39,7 +39,7 @@ function TeamMemberPopup({ member, onClose, onPrevious, onNext }: Props) {
             {member.email && (
               <div className="contact-item">
                 <img src={emailIcon} alt="Email" />
-                <a href={member.email}>Email me</a>
+                <a href="mailto:{member.email}">Email me</a>
               </div>
             )}
             {member.linkedin && (
