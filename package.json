@@ -1,7 +1,6 @@
 {
   "name": "rbc",
   "version": "0.1.0",
-  "license": "MIT",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -18,13 +17,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "yarn start",
-    "build": "yarn build",
-    "test": "yarn test",
-    "eject": "yarn eject",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
-  },
+    "start": "craco start",
+    "build": "craco build",
+    "test":  "craco test",
+    "eject": "craco eject"
+ },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -44,7 +41,6 @@
     ]
   },
   "devDependencies": {
-    "@craco/craco": "^7.1.0",
-    "gh-pages": "^6.1.1"
+    "@craco/craco": "^7.1.0"
   }
 }
